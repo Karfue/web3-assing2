@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.contain{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+}
+
+.main{
+    width: 80%;
+    height: 80%;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 200px;
+}
+
+#publickey{
+    font-size: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#amount{
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+#tokenType{
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+label{
+    font-size: 50px;
+}
+
+#loadingMessage{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+#successMessage {
+    background-color: #d4edda;
+    color: #155724;
+}
+#errorMessage {
+    background-color: #f8d7da;
+    color: #721c24;
+}
